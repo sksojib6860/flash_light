@@ -142,6 +142,9 @@ class _Flash_BulbState extends State<Flash_Bulb>
               ? Color.fromRGBO(247, 247, 247, 1)
               : Color.fromRGBO(255, 224, 125, 1),
           body: Center(
+              child: OverflowBox(
+            maxHeight: double.infinity,
+            maxWidth: double.infinity,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -219,7 +222,7 @@ class _Flash_BulbState extends State<Flash_Bulb>
                 ),
                 // Last Text
                 Text(
-                  "Design & Build by Ahmad Nasir",
+                  "Design & Build by Sojeb Chandra",
                   style: GoogleFonts.lemon(
                       fontSize: 12,
                       color: _states != true
@@ -228,7 +231,7 @@ class _Flash_BulbState extends State<Flash_Bulb>
                 ),
               ],
             ),
-          )),
+          ))),
     );
   }
 }

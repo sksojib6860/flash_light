@@ -23,8 +23,8 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.flashbulb.flash_bulb"
-    compileSdkVersion flutter.compileSdkVersion
+    namespace "com.flashbulb.flash_light"
+    compileSdkVersion 33
     ndkVersion flutter.ndkVersion
 
     compileOptions {
